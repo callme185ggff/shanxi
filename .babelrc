@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "development": true,
+          "runtime": "automatic"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["@react-dev-inspector/babel-plugin"]
+    },
+    "production": {
+      "plugins": []
+    }
+  }
+}
